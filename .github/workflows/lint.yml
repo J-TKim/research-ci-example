@@ -27,4 +27,8 @@ jobs:
           DEFAULT_BRANCH: master
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VALIDATE_PYTHON_BLACK: true
+<<<<<<< HEAD
           # VALIDATE_PYTHON_FLAKE8: true
+=======
+          VALIDATE_PYTHON_FLAKE8: true
+>>>>>>> fdf6156c2e8420c3af9749089d65bfe1fcd6fa57
